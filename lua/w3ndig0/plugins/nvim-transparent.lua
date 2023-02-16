@@ -14,7 +14,17 @@ require("transparent").setup({
     "BufferLineFill",
     "BufferLineBackground",
     "BufferLineSeparator",
+    "BufferLineCloseButton",
+    "BufferLineSeperatorVisible",
     "BufferLineIndicatorSelected",
+    "BufferLineIcon",
+    "BufferLineIndicators",
+    "BufferLineHighlights",
+    "BufferLineColorIcons",
+    "BufferLineIndicatorIcon",
+    "BufferLineModifiedIcon",
+    "BufferLineCloseIcon",
+      
   },
   exclude = {}, -- table: groups you don't want to clear
 })

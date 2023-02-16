@@ -5,7 +5,10 @@ if not status then
 end
 
 bufferline.setup({
-  -- options = {
-  -- },
+  options = {
+    show_buffer_close_icons = false,
+    buffer_close_icon = "",
+    close_icon = "",
+  },
 })
 
