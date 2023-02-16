@@ -72,7 +72,6 @@ return packer.startup(function(use)
   use {"akinsho/toggleterm.nvim", tag = '*', config = function()
      require("toggleterm").setup()
   end}
-
   use("folke/todo-comments.nvim")
 
   if packer_bootstrap then

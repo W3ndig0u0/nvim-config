@@ -12,6 +12,7 @@ require("w3ndig0.plugins.treesitter")
 
 require("w3ndig0.plugins.bufferline")
 require("w3ndig0.plugins.todocomments")
+require("w3ndig0.plugins.nvim-transparent")
 
 require("w3ndig0.plugins.lualine")
 require("w3ndig0.plugins.telescope")
@@ -27,4 +28,3 @@ require("w3ndig0.plugins.telescope")
 require("w3ndig0.plugins.autopairs")
 require("w3ndig0.plugins.treesitter")
 require("w3ndig0.plugins.gitsigns")
-vim.api.nvim_set_hl(0, "Normal", {guibg=NONE, ctermbg=NONE})
