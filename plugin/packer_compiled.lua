@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-rg",
     url = "https://github.com/duane9/nvim-rg"
   },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
