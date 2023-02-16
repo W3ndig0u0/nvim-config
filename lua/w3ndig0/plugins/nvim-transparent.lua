@@ -15,7 +15,6 @@ require("transparent").setup({
     "BufferLineBackground",
     "BufferLineSeparator",
     "BufferLineCloseButton",
-    "BufferLineSeperatorVisible",
     "BufferLineIndicatorSelected",
     "BufferLineIcon",
     "BufferLineIndicators",

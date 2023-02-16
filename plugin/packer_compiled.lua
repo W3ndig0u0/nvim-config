@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/jing/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/jing/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/jing/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/jing/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/jing/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/Administrator/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/Administrator/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/Administrator/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/Administrator/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/Administrator/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,120 +76,120 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["Comment.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
   ["bufferline.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["horizon.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/horizon.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/horizon.nvim",
     url = "https://github.com/lunarvim/horizon.nvim"
   },
   ["impatient.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-rg"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-rg",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-rg",
     url = "https://github.com/duane9/nvim-rg"
   },
   ["nvim-transparent"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-transparent",
     url = "https://github.com/xiyaowong/nvim-transparent"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-autotag"] = {
     load_after = {},
     loaded = true,
     needs_bufread = false,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["presence.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["todo-comments.nvim"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
     url = "https://github.com/folke/todo-comments.nvim"
   },
   ["toggleterm.nvim"] = {
-    config = { "\27LJ\2\0028\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0" },
+    config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0" },
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["vim-maximizer"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
   },
   ["vim-surround"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/vim-surround",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
-    path = "/home/jing/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
@@ -197,7 +197,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\0028\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
+try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
