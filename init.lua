@@ -18,7 +18,7 @@ require("w3ndig0.plugins.telescope")
 require("w3ndig0.plugins.nvim-transparent")
 
 
---require("w3ndig0.plugins.nvim-cmp")
+require("w3ndig0.plugins.nvim-cmp")
 --require("w3ndig0.plugins.lsp.mason")
 --require("w3ndig0.plugins.lsp.lspsaga")
 --require("w3ndig0.plugins.lsp.lspconfig")
