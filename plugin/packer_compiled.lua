@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-rg"] = {
     loaded = true,
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-rg",
@@ -155,11 +160,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
-  },
-  ["rainbow_parentheses.vim"] = {
-    loaded = true,
-    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/rainbow_parentheses.vim",
-    url = "https://github.com/junegunn/rainbow_parentheses.vim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,

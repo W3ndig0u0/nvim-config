@@ -40,6 +40,7 @@ return packer.startup(function(use)
  -- file explorer
   use("nvim-tree/nvim-tree.lua")
   use("duane9/nvim-rg")
+
   -- vs-code like icons
   use("nvim-tree/nvim-web-devicons")
   
@@ -62,9 +63,6 @@ return packer.startup(function(use)
     end,
   })
 
-  use("junegunn/rainbow_parentheses.vim")
-
-  -- auto closing
   use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
   use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
 
@@ -74,7 +72,12 @@ return packer.startup(function(use)
   use {"akinsho/toggleterm.nvim", tag = '*', config = function()
      require("toggleterm").setup()
   end}
+
   use("folke/todo-comments.nvim")
+
+  --"NOTE: LSP install
+
+  use("neovim/nvim-lspconfig")
 
   if packer_bootstrap then
     require("packer").sync()
