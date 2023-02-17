@@ -76,6 +76,12 @@ return packer.startup(function(use)
   use("folke/todo-comments.nvim")
 
   --"NOTE: LSP install
+  use("hrsh7th/nvim-cmp")
+  use("hrsh7th/cmp-buffer")
+  use("hrsh7th/cmp-path")
+
+  use("onsails/lspkind.nvim")
+  use("L3MON4D3/LuaSnip")
 
   use("neovim/nvim-lspconfig")
 
