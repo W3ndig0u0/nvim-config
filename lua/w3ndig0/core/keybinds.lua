@@ -53,7 +53,17 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 -- restart lsp server
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
-keymap.set("n", "<leader>F", ":TodoTelescope keywords=TODO,BUG<CR>")
+keymap.set("n", "<leader>F", ":TodoTelescope keywords=TODO<CR>")
+keymap.set("n", "<leader>ft", ":TodoTelescope keywords=FIX<CR>")
+keymap.set("n", "<leader>fn", ":TodoTelescope keywords=NOTE<CR>")
 
 keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>")
 keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>")
+
+--TEXT KOMMENTAR:
+keymap.set("i", "<leader>F", "--'TODO:")
+keymap.set("i", "<leader>fn", "--'TODO:")
+keymap.set("i", "<leader>ft", "--'FIX:")
+
+
+

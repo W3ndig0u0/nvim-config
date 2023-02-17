@@ -10,6 +10,10 @@ opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
+
+opt.scrolloff = 10
+opt.updatetime = 50
+
 --line wrap
 opt.wrap = false
 

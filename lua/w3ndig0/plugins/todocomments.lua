@@ -43,8 +43,3 @@ todo_comments.setup {
     pattern = [[\b(KEYWORDS):]], -- ripgrep regex
   },
 }
---TODO:
---'TODO:
---"TODO:
---"FIX:
---""
