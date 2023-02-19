@@ -96,7 +96,7 @@ return packer.startup(function(use)
   --'NOTE: Formatering
   use("jose-elias-alvarez/null-ls.nvim")
   use("jayp0521/mason-null-ls.nvim")
-  use("mfussenegger/nvim-dap")
+
   if packer_bootstrap then
     require("packer").sync()
   end

@@ -18,6 +18,8 @@ local on_attach = function(client, bufnr)
 local opts = { noremap = true, silent = true, buffer = bufnr }
 
   -- set keybinds
+
+
 keymap.set("n", "gf", "<cmd>Lspsaga lsp_finder<CR>", opts) -- show definition, references
 keymap.set("n", "§", "<cmd>Lspsaga rename<CR>", opts) -- smart rename
 keymap.set("n", "<leader>d", "<cmd>Lspsaga show_line_diagnostics<CR>", opts) -- show  diagnostics for line

@@ -10,13 +10,12 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 null_ls.setup({
   sources = {
+    formatting.prettier,
     formatting.prettierd,
     formatting.clang-format,
-    formatting.csharpier,
     formatting.rustfmd, 
     formatting.eslint_d,
-    formatting.stylua,
-  },
+ },
      -- configure format on save
   on_attach = function(current_client, bufnr)
     if current_client.supports_method("textDocument/formatting") then

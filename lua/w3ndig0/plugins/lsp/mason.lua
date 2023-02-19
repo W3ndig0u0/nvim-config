@@ -16,11 +16,6 @@ if not masonNullSetup then
 end
 
 
-local masonDapSetup, masonDaplsp = pcall(require, "nvim-dap")
-if not masonDapSetup then
- return 
-end
-
 mason.setup()
 
 masonLsp.setup({
@@ -36,24 +31,21 @@ masonLsp.setup({
   }
 })
 
-
-masonDapLsp.setup({
-  ensure_installed = {
-    "chrome-debug-adapter",
-    "cpptools",
-    "java-debug-adapter",
-    "java-test",
-    "netcoredbg",
-  }
-})
+--'NOTE: Debugging,,,
+-- masonDapLsp.setup({
+--   ensure_installed = {
+--     "chrome-debug-adapter",
+--     "cpptools",
+--     "java-debug-adapter",
+--     "java-test",
+--   }
+-- })
 
 masonNullLsp.setup({
   ensure_installed = {
+    "prittier",
     "prittierd",
-    "stylua",
     "eslint_d",
-    "cpplint",
-    "csharpier",
     "clang-format",
     "rustfmt",
   }
