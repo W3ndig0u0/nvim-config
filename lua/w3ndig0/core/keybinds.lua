@@ -58,7 +58,7 @@ keymap.set("n", "<leader>ft", ":TodoTelescope keywords=FIX<CR>")
 
 keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>")
 keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>")
-
+keymap.set("n", "<S-x>", ":bp<bar>sp<bar>bn<bar>bd<CR>")
 --TEXT KOMMENTAR:
 keymap.set("i", "<C-f>", "--'TODO: ")
 keymap.set("i", "<C-q>", "--'NOTE: ")

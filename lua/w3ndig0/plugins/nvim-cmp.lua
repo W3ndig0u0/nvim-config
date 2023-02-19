@@ -8,12 +8,10 @@ if not luaSnipSetup then
   return
 end
 
-local lskindSetup, lskind = pcall(require, 'lskind')
+local lskindSetup, lskind = pcall(require, 'lspkind')
 if not lskindSetup then
   return
 end
-
-
 
 require("luasnip.loaders.from_vscode").lazy_load()
 
@@ -29,9 +27,6 @@ cmp.setup({
 mapping = cmp.mapping.preset.insert({
     ["<C-k>"] = cmp.mapping.select_prev_item(), -- previous suggestion
     ["<C-j>"] = cmp.mapping.select_next_item(), -- next suggestion
-    ["<C-b>"] = cmp.mapping.scroll_docs(-4),
-    ["<C-f>"] = cmp.mapping.scroll_docs(4),
-    ["<C-Space>"] = cmp.mapping.complete(), -- show completion suggestions
     ["<C-e>"] = cmp.mapping.abort(), -- close completion window
     ["<Tab>"] = cmp.mapping.confirm({ select = false }),
   }),
@@ -50,3 +45,4 @@ mapping = cmp.mapping.preset.insert({
     }),
   },
 })
+

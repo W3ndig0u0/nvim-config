@@ -9,6 +9,12 @@ if not masonLspSetup then
  return 
 end
 
+
+local masonNullSetup, masonNullLsp = pcall(require, "mason-null-ls")
+if not masonNullSetup then
+ return 
+end
+
 mason.setup()
 
 masonLsp.setup({
@@ -21,4 +27,18 @@ masonLsp.setup({
     "quick_lint_js",  --Javascript
     "rust_analyzer",
   }
+})
+
+mason_null_ls.setup({
+  ensure_installed = {
+    "prittier",
+    "stylua",
+    "eslint_d",
+    "prittier",
+    "stylua",
+    "eslint_d",
+    
+    
+  }
+
 })

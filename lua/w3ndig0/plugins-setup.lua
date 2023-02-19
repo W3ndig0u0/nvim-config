@@ -93,6 +93,9 @@ return packer.startup(function(use)
 
   use("neovim/nvim-lspconfig")
 
+  --'NOTE: Formatering
+  use("jose-elias-alvarez/null-ls.nvim")
+  use("jayp0521/mason-null-ls.nvim")
 
   if packer_bootstrap then
     require("packer").sync()
