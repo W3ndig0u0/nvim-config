@@ -34,7 +34,6 @@ return packer.startup(function(use)
   -- essential plugins
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
 
-  -- commenting with gc
   use("numToStr/Comment.nvim")
 
  -- file explorer
@@ -79,11 +78,21 @@ return packer.startup(function(use)
   use("hrsh7th/nvim-cmp")
   use("hrsh7th/cmp-buffer")
   use("hrsh7th/cmp-path")
-
-  use("onsails/lspkind.nvim")
+  
   use("L3MON4D3/LuaSnip")
+  use("saadparwaiz1/cmp_luasnip")
+  use("rafamadriz/friendly-snippets")
+
+  use("hrsh7th/cmp-nvim-lsp")
+  use({"glepnir/lspsaga.nvim", branch = "main"})
+  use("onsails/lspkind.nvim")
+
+  --'NOTE:  Managing lsp servers
+  use("williamboman/mason.nvim")
+  use("williamboman/mason-lspconfig.nvim")
 
   use("neovim/nvim-lspconfig")
+
 
   if packer_bootstrap then
     require("packer").sync()

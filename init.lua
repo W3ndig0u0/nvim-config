@@ -19,11 +19,10 @@ require("w3ndig0.plugins.nvim-transparent")
 
 
 require("w3ndig0.plugins.nvim-cmp")
---require("w3ndig0.plugins.lsp.mason")
+require("w3ndig0.plugins.lsp.mason")
 --require("w3ndig0.plugins.lsp.lspsaga")
 --require("w3ndig0.plugins.lsp.lspconfig")
 --require("w3ndig0.plugins.lsp.null-ls")
-
 
 require("w3ndig0.plugins.autopairs")
 require("w3ndig0.plugins.treesitter")
