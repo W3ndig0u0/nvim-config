@@ -8,12 +8,12 @@ if not luaSnipSetup then
   return
 end
 
--- local lskindSetup, lskind = pcall(require, 'lskind')
--- if not lskindSetup then
---   return
--- end
---
---
+local lskindSetup, lskind = pcall(require, 'lskind')
+if not lskindSetup then
+  return
+end
+
+
 
 require("luasnip.loaders.from_vscode").lazy_load()
 
@@ -37,16 +37,16 @@ mapping = cmp.mapping.preset.insert({
   }),
   -- sources for autocompletion
   sources = cmp.config.sources({
-    -- { name = "nvim_lsp" }, -- lsp
+    { name = "nvim_lsp" }, -- lsp
     { name = "luasnip" }, -- snippets
     { name = "buffer" }, -- text within current buffer
     { name = "path" }, -- file system paths
   }),
   -- configure lspkind for vs-code like icons
-  -- formatting = {
-  --   format = lskind.cmp_format({
-  --     maxwidth = 50,
-  --     ellipsis_char = "...",
-  --   }),
-  -- },
+  formatting = {
+    format = lskind.cmp_format({
+      maxwidth = 50,
+      ellipsis_char = "...",
+    }),
+  },
 })
