@@ -1,7 +1,5 @@
 
 require("w3ndig0.plugins-setup")
-require("w3ndig0.core.options")
-require("w3ndig0.core.keybinds")
 require("w3ndig0.core.colorscheme")
 require("w3ndig0.plugins.impatient")
 
@@ -28,6 +26,5 @@ require("w3ndig0.plugins.autopairs")
 require("w3ndig0.plugins.treesitter")
 require("w3ndig0.plugins.gitsigns")
 
--- vim.cmd[[hi NvimTreeNormal guibg=NONE ctermbg=NONE]]
--- vim.cmd[[hi NormalFloat guibg=NONE ctermbg=NONE]]
--- vim.cmd[[hi Normal guibg=NONE ctermbg=NONE]]
+require("w3ndig0.core.options")
+require("w3ndig0.core.keybinds")

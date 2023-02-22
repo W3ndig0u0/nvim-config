@@ -16,8 +16,6 @@ if not masonNullSetup then
 end
 
 
-
-
 mason.setup()
 
 masonLsp.setup({
@@ -28,9 +26,8 @@ masonLsp.setup({
     "html",
     "jdtls", --JAVA
     "quick_lint_js",  --Javascript
-    "rust_analyzer",
-    "clangd",
-  }
+  },
+  automatic_installation = true,
 })
 
 --'NOTE: Debugging,,,
@@ -49,7 +46,7 @@ masonNullLsp.setup({
     "prittierd",
     "eslint_d",
     "clang-format",
-    "rustfmt",
-  }
+  },
+  automatic_installation = true,
 
 })
