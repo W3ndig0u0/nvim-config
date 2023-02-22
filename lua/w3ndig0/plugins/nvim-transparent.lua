@@ -6,8 +6,9 @@ require("transparent").setup({
     -- example of akinsho/nvim-bufferline.lua
     "BufferLineTabClose",
     "BufferlineBufferSelected",
-    "BufferLineFill",
     "BufferLineBackground",
+    "BufferLineFill",
+    "BufferLineNormal",
     "BufferLineSeparator",
     "BufferLineIndicatorSelected",
     "Normal",
