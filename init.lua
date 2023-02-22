@@ -9,6 +9,7 @@ require("w3ndig0.plugins.nvim-tree")
 require("w3ndig0.plugins.treesitter")
 
 require("w3ndig0.plugins.bufferline")
+require("w3ndig0.plugins.toggleterm")
 require("w3ndig0.plugins.todocomments")
 
 require("w3ndig0.plugins.lualine")
