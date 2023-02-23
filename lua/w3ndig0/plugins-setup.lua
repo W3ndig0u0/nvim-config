@@ -27,6 +27,10 @@ return packer.startup(function(use)
   -- use("shaunsingh/moonlight.nvim") -- preferred colorscheme
   use("lunarvim/horizon.nvim")
 
+ -- file explorer
+  use("nvim-tree/nvim-tree.lua")
+  use("duane9/nvim-rg")
+
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
   use("szw/vim-maximizer") -- maximizes and restores current window
@@ -35,10 +39,6 @@ return packer.startup(function(use)
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
 
   use("numToStr/Comment.nvim")
-
- -- file explorer
-  use("nvim-tree/nvim-tree.lua")
-  use("duane9/nvim-rg")
 
   -- vs-code like icons
   use("nvim-tree/nvim-web-devicons")
