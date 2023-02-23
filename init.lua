@@ -1,12 +1,13 @@
 
+require("w3ndig0.plugins.nvim-tree")
+require("w3ndig0.plugins.treesitter")
+
 require("w3ndig0.plugins-setup")
 require("w3ndig0.core.colorscheme")
 require("w3ndig0.plugins.impatient")
 
 require("w3ndig0.plugins.comment")
 require("w3ndig0.plugins.discord")
-require("w3ndig0.plugins.nvim-tree")
-require("w3ndig0.plugins.treesitter")
 
 require("w3ndig0.plugins.bufferline")
 require("w3ndig0.plugins.toggleterm")
