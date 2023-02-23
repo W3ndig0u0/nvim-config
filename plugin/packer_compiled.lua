@@ -226,6 +226,11 @@ _G.packer_plugins = {
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
   },
+  rainbow = {
+    loaded = true,
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/rainbow",
+    url = "https://github.com/luochen1990/rainbow"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

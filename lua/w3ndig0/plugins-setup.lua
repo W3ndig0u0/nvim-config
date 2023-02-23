@@ -74,6 +74,9 @@ return packer.startup(function(use)
 
   use("folke/todo-comments.nvim")
 
+  --'NOTE: Rainbow color
+  use("luochen1990/rainbow")
+
   --"NOTE: LSP install
   use("hrsh7th/nvim-cmp")
   use("hrsh7th/cmp-buffer")
