@@ -206,6 +206,11 @@ _G.packer_plugins = {
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
+  ["nvim-ts-rainbow2"] = {
+    loaded = true,
+    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow2",
+    url = "https://github.com/HiPhish/nvim-ts-rainbow2"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -225,11 +230,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
-  },
-  rainbow = {
-    loaded = true,
-    path = "/Users/Administrator/.local/share/nvim/site/pack/packer/start/rainbow",
-    url = "https://github.com/luochen1990/rainbow"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
