@@ -65,3 +65,9 @@ keymap.set("i", "<C-f>", "--'TODO: ")
 keymap.set("i", "<C-q>", "--'NOTE: ")
 keymap.set("i", "<C-b>", "--'FIX: ")
 
+
+
+keymap.set("n", "<CR>", "o<ESC>")
+
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
