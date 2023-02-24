@@ -44,7 +44,7 @@ mapping = cmp.mapping.preset.insert({
   -- configure lspkind for vs-code like icons
   formatting = {
     format = lskind.cmp_format({
-      maxwidth = 80,
+      maxwidth = 50,
       ellipsis_char = "...",
     }),
   },

@@ -45,8 +45,9 @@ masonNullLsp.setup({
     "prittier",
     "eslint_d",
     "stylua",
-    "clang-format",
     "cpplint",
+    "clang-format",
+    "csharpier",
     "semgrep",
 
   },
