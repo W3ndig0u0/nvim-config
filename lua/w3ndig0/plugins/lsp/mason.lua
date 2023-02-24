@@ -43,9 +43,12 @@ masonLsp.setup({
 masonNullLsp.setup({
   ensure_installed = {
     "prittier",
-    "prittierd",
     "eslint_d",
+    "stylua",
     "clang-format",
+    "cpplint",
+    "semgrep",
+
   },
   automatic_installation = true,
 

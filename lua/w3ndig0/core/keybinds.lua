@@ -71,3 +71,6 @@ keymap.set("n", "<CR>", "o<ESC>")
 
 keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
+
+
+keymap.set("n", "<C-s>", ":wa<CR>")
