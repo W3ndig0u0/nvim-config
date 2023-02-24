@@ -12,8 +12,8 @@ null_ls.setup({
   sources = {
     formatting.prettier,
     formatting.eslint_d,
-    formatting.clang-format,
-    formatting.csharpier,
+    -- formatting.clang-format,
+    -- formatting.csharpier,
     formatting.stylua,
     diagnostics.cpplint,
     diagnostics.semgrep,
