@@ -73,4 +73,9 @@ keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 
 
-keymap.set("n", "<C-s>", ":wa<CR>")
+keymap.set("n", "<Leader>s", ":wa<CR>")
+keymap.set("n", "<C-s>", ":lua vim.lsp.buf.format()<CR>")
+
+
+
+
